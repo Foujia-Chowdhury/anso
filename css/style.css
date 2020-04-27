@@ -372,44 +372,69 @@ header-1{
 =======================================================*/
 footer{
        background:#66cc33;
+       padding: 20px 0;
 }
 .footer{
 	  width: 80%;
 	  margin: 0 auto;
       display:flex;
       justify-content: space-between;
-      padding: 17px 0px;
-      align-items: center;
       color:#fff;
 }
 .footer p{
-	line-height: 25px;
-	font-size: 14px;
+	line-height: 30px;
 
 }
 .list p a{
 	text-decoration: none;
 	color:#fff;
-   	font-size: 14px;
+   	font-size: 16px;
 	text-transform: capitalize;
 }
+.list p a:hover{
+	color: #333;
+	font-weight: 500;
+	transition: .3s all ease-in-out;
+}
+address{
+	padding: 15px 0;
+	
+}
 .footer i{
-	padding-right: 8px;
-	font-size:14px;
+	padding-right: 20px;
+	font-size:14px
 }
 .icon{
-	padding: 0;
+	padding: 25px 0;
+}
+.icon span i{
+	font-size:16px;
 }
 .icon li{
 	display:inline-block;
 }
-.icon li a i{
-     color:#fff;
-     padding: 5px 5px;
 
+.icon li a i{
+    color:#fff;
+    padding: 2px 3px;
+    font-size: px;
+    width: 36px;
+    height: 36px;
+    background-color: #a2d894;
+    line-height: 32px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.icon li a i:hover{
+	color: #333333;
+	background: #66cc33;
+	border: 2px solid #333333;
+	transition: 2s all ease-in-out;
+	border-radius: 20%;
 }
 .finish{
-	background: #000;
+	background: #333333;
 	height: 90px;
 
 }
